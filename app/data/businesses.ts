@@ -37,8 +37,8 @@ export const businesses: Business[] = [
       { day: "Sunday", open: "", close: "", closed: true },
     ],
 
-    rating: 4.9,
-    reviewCount: 84,
+    rating: 0.0,
+    reviewCount: 0,
 
     createdAt: "2026-08-03",
     updatedAt: "2026-08-03",
@@ -75,8 +75,8 @@ export const businesses: Business[] = [
       { day: "Sunday", open: "", close: "", closed: true },
     ],
 
-    rating: 4.8,
-    reviewCount: 61,
+    rating: 0.0,
+    reviewCount: 0,
 
     createdAt: "2026-08-03",
     updatedAt: "2026-08-03",
@@ -113,13 +113,14 @@ export const businesses: Business[] = [
       { day: "Sunday", open: "8:00", close: "18:00", closed: false },
     ],
 
-    rating: 4.7,
-    reviewCount: 43,
+    rating: 0.0,
+    reviewCount: 0,
 
-    createdAt: "2026-08-03",
-    updatedAt: "2026-08-03",
+ createdAt: "2026-08-03",
+updatedAt: "2026-08-03",
   },
-    {
+
+  {
     id: "kwest-004",
     slug: "quickmart-kahawa-west",
 
@@ -152,14 +153,13 @@ export const businesses: Business[] = [
       { day: "Sunday", open: "8:00", close: "21:00", closed: false },
     ],
 
-    rating: 4.8,
-reviewCount: 126,
+    rating: 0.0,
+    reviewCount: 0,
 
 createdAt: "2026-07-15",
 updatedAt: "2026-08-03",
   },
-    },
-
+    
   {
     id: "kwest-005",
     slug: "khetias-supermarket",
@@ -193,12 +193,14 @@ updatedAt: "2026-08-03",
       { day: "Sunday", open: "8:00", close: "20:00", closed: false },
     ],
 
-    rating: 4.9,
+    rating: 0.0,
     reviewCount: 0,
 
     createdAt: "2026-08-05",
     updatedAt: "2026-08-05",
-  },  {
+  }, 
+  
+  {
     id: "kwest-006",
     slug: "greencare-pharmacy",
 
@@ -235,7 +237,7 @@ updatedAt: "2026-08-03",
       { day: "Sunday", open: "9:00", close: "17:00", closed: false },
     ],
 
-    rating: 4.8,
+    rating: 0.0,
     reviewCount: 0,
 
     createdAt: "2026-08-04",
@@ -279,7 +281,7 @@ updatedAt: "2026-08-03",
       { day: "Sunday", open: "", close: "", closed: true },
     ],
 
-    rating: 4.7,
+    rating: 0.0,
     reviewCount: 0,
 
     createdAt: "2026-08-04",
@@ -323,7 +325,7 @@ updatedAt: "2026-08-03",
       { day: "Sunday", open: "8:00", close: "20:00", closed: false },
     ],
 
-    rating: 4.8,
+    rating: 0.0,
     reviewCount: 0,
 
     createdAt: "2026-08-04",
@@ -367,7 +369,7 @@ updatedAt: "2026-08-03",
       { day: "Sunday", open: "", close: "", closed: true },
     ],
 
-    rating: 4.6,
+    rating: 0.0,
     reviewCount: 0,
 
     createdAt: "2026-08-04",
@@ -411,9 +413,210 @@ updatedAt: "2026-08-03",
       { day: "Sunday", open: "8:00", close: "17:00", closed: false },
     ],
 
-    rating: 4.8,
+    rating: 0.0,
     reviewCount: 0,
 
-    createdAt: "2026-08-04",
+        createdAt: "2026-08-04",
     updatedAt: "2026-08-04",
-  }
+  },
+
+{
+  id: "kwest-011",
+  slug: "kahawa-family-clinic",
+
+  name: "Kahawa Family Clinic",
+  categoryId: "health-wellness",
+  description:
+    "A neighbourhood medical clinic offering outpatient consultation, laboratory services and family healthcare.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near the Main Stage",
+
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "20:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
+    { day: "Friday", open: "8:00", close: "20:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "18:00", closed: false },
+    { day: "Sunday", open: "9:00", close: "16:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-012",
+  slug: "westlands-chemist",
+
+  name: "Westlands Chemist",
+  categoryId: "health-wellness",
+  description:
+    "Prescription medicine, over-the-counter drugs and everyday healthcare products.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near Quickmart",
+
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "21:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "21:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "21:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "21:00", closed: false },
+    { day: "Friday", open: "8:00", close: "21:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
+    { day: "Sunday", open: "9:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-013",
+  slug: "soweto-butchery",
+
+  name: "Soweto Butchery",
+  categoryId: "food-fresh",
+  description:
+    "Fresh beef, goat, chicken and quality meat cuts prepared daily.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Soweto Stage",
+  landmark: "Opposite Soweto Hardware",
+
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "7:00", close: "20:00", closed: false },
+    { day: "Tuesday", open: "7:00", close: "20:00", closed: false },
+    { day: "Wednesday", open: "7:00", close: "20:00", closed: false },
+    { day: "Thursday", open: "7:00", close: "20:00", closed: false },
+    { day: "Friday", open: "7:00", close: "20:00", closed: false },
+    { day: "Saturday", open: "7:00", close: "20:00", closed: false },
+    { day: "Sunday", open: "8:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-014",
+  slug: "kahawa-fresh-fish",
+
+  name: "Kahawa Fresh Fish",
+  categoryId: "food-fresh",
+  description:
+    "Fresh tilapia, Nile perch and assorted seafood for local families.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Market",
+  landmark: "Near the Fresh Produce Section",
+
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "19:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "19:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "19:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "19:00", closed: false },
+    { day: "Friday", open: "8:00", close: "19:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "19:00", closed: false },
+    { day: "Sunday", open: "9:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-015",
+  slug: "royal-barbers",
+
+  name: "Royal Barbers",
+  categoryId: "beauty-grooming",
+  description:
+    "Modern barbershop offering haircuts, beard grooming and children's cuts.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near the Bus Stage",
+
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "20:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
+    { day: "Friday", open: "8:00", close: "20:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
+    { day: "Sunday", open: "9:00", close: "18:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+];
