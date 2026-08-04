@@ -1719,4 +1719,453 @@ updatedAt: "2026-08-03",
 
   createdAt: "2026-08-04",
   updatedAt: "2026-08-04",
+},
+{
+  id: "kwest-041",
+  slug: "kahawa-west-electronics",
+
+  name: "Kahawa West Electronics",
+  categoryId: "electronics",
+
+  description:
+    "Electronics shop selling TVs, radios, home appliances and accessories.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near Stage",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:30", close: "19:00", closed: false },
+    { day: "Tuesday", open: "8:30", close: "19:00", closed: false },
+    { day: "Wednesday", open: "8:30", close: "19:00", closed: false },
+    { day: "Thursday", open: "8:30", close: "19:00", closed: false },
+    { day: "Friday", open: "8:30", close: "19:00", closed: false },
+    { day: "Saturday", open: "8:30", close: "18:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-042",
+  slug: "smart-phone-repair-centre",
+
+  name: "Smart Phone Repair Centre",
+  categoryId: "electronics",
+
+  description:
+    "Phone repairs, accessories, screen replacement and software services.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Quickmart",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "18:30", closed: false },
+    { day: "Tuesday", open: "8:00", close: "18:30", closed: false },
+    { day: "Wednesday", open: "8:00", close: "18:30", closed: false },
+    { day: "Thursday", open: "8:00", close: "18:30", closed: false },
+    { day: "Friday", open: "8:00", close: "18:30", closed: false },
+    { day: "Saturday", open: "8:00", close: "17:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-043",
+  slug: "kahawa-bakers",
+
+  name: "Kahawa Bakers",
+  categoryId: "food-fresh",
+
+  description:
+    "Fresh bread, cakes, snacks and pastries baked daily.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Shopping Centre",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "6:30", close: "20:00", closed: false },
+    { day: "Tuesday", open: "6:30", close: "20:00", closed: false },
+    { day: "Wednesday", open: "6:30", close: "20:00", closed: false },
+    { day: "Thursday", open: "6:30", close: "20:00", closed: false },
+    { day: "Friday", open: "6:30", close: "20:00", closed: false },
+    { day: "Saturday", open: "6:30", close: "20:00", closed: false },
+    { day: "Sunday", open: "7:00", close: "18:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-044",
+  slug: "fresh-milk-depot",
+
+  name: "Fresh Milk Depot",
+  categoryId: "food-fresh",
+
+  description:
+    "Fresh milk, yoghurt, dairy products and everyday essentials.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Market",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "7:00", close: "20:00", closed: false },
+    { day: "Tuesday", open: "7:00", close: "20:00", closed: false },
+    { day: "Wednesday", open: "7:00", close: "20:00", closed: false },
+    { day: "Thursday", open: "7:00", close: "20:00", closed: false },
+    { day: "Friday", open: "7:00", close: "20:00", closed: false },
+    { day: "Saturday", open: "7:00", close: "20:00", closed: false },
+    { day: "Sunday", open: "8:00", close: "18:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-045",
+  slug: "prestige-salon-spa",
+
+  name: "Prestige Salon & Spa",
+  categoryId: "beauty-personal-care",
+
+  description:
+    "Hair styling, beauty therapy, manicure, pedicure and spa treatments.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Stage",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "19:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "19:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "19:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "19:00", closed: false },
+    { day: "Friday", open: "8:00", close: "19:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "19:00", closed: false },
+    { day: "Sunday", open: "10:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-046",
+  slug: "elite-barber-shop",
+
+  name: "Elite Barber Shop",
+  categoryId: "beauty-personal-care",
+
+  description:
+    "Professional barber services including haircuts, shaving and grooming.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Shopping Centre",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "20:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
+    { day: "Friday", open: "8:00", close: "20:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
+    { day: "Sunday", open: "9:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-047",
+  slug: "home-choice-curtains",
+
+  name: "Home Choice Curtains",
+  categoryId: "home-utilities",
+
+  description:
+    "Curtains, blinds, bedding and interior décor solutions.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Furniture Stores",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:30", close: "18:00", closed: false },
+    { day: "Tuesday", open: "8:30", close: "18:00", closed: false },
+    { day: "Wednesday", open: "8:30", close: "18:00", closed: false },
+    { day: "Thursday", open: "8:30", close: "18:00", closed: false },
+    { day: "Friday", open: "8:30", close: "18:00", closed: false },
+    { day: "Saturday", open: "9:00", close: "17:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-048",
+  slug: "kahawa-bookshop-stationers",
+
+  name: "Kahawa Bookshop & Stationers",
+  categoryId: "education",
+
+  description:
+    "Books, stationery, printing and school supplies.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Schools",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "18:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
+    { day: "Friday", open: "8:00", close: "18:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "16:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-049",
+  slug: "bright-star-academy",
+
+  name: "Bright Star Academy",
+  categoryId: "education",
+
+  description:
+    "Private academy providing quality CBC education for young learners.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Church",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "7:00", close: "17:00", closed: false },
+    { day: "Tuesday", open: "7:00", close: "17:00", closed: false },
+    { day: "Wednesday", open: "7:00", close: "17:00", closed: false },
+    { day: "Thursday", open: "7:00", close: "17:00", closed: false },
+    { day: "Friday", open: "7:00", close: "17:00", closed: false },
+    { day: "Saturday", open: "", close: "", closed: true },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-050",
+  slug: "unity-sacco-agency",
+
+  name: "Unity Sacco Agency",
+  categoryId: "financial-services",
+
+  description:
+    "Savings, loans, agency banking and financial services for the community.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near ATM",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "17:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "17:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "17:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "17:00", closed: false },
+    { day: "Friday", open: "8:00", close: "17:00", closed: false },
+    { day: "Saturday", open: "9:00", close: "13:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
 },];
