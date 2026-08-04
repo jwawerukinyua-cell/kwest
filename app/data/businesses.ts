@@ -1280,4 +1280,443 @@ updatedAt: "2026-08-03",
 
   createdAt: "2026-08-04",
   updatedAt: "2026-08-04",
+},
+{
+  id: "kwest-031",
+  slug: "kahawa-west-wines-spirits",
+
+  name: "Kahawa West Wines & Spirits",
+  categoryId: "shopping-retail",
+  description:
+    "Neighbourhood wines and spirits shop offering a wide range of beverages.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near Stage",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "10:00", close: "22:00", closed: false },
+    { day: "Tuesday", open: "10:00", close: "22:00", closed: false },
+    { day: "Wednesday", open: "10:00", close: "22:00", closed: false },
+    { day: "Thursday", open: "10:00", close: "22:00", closed: false },
+    { day: "Friday", open: "10:00", close: "23:00", closed: false },
+    { day: "Saturday", open: "10:00", close: "23:00", closed: false },
+    { day: "Sunday", open: "11:00", close: "21:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-032",
+  slug: "family-dental-clinic",
+
+  name: "Family Dental Clinic",
+  categoryId: "health-wellness",
+  description:
+    "General dental care, teeth cleaning, fillings and oral health consultations.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Shopping Centre",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "17:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "17:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "17:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "17:00", closed: false },
+    { day: "Friday", open: "8:00", close: "17:00", closed: false },
+    { day: "Saturday", open: "9:00", close: "14:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-033",
+  slug: "bright-vision-opticians",
+
+  name: "Bright Vision Opticians",
+  categoryId: "health-wellness",
+  description:
+    "Eye testing, prescription glasses, sunglasses and vision care services.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Pharmacy",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:30", close: "17:30", closed: false },
+    { day: "Tuesday", open: "8:30", close: "17:30", closed: false },
+    { day: "Wednesday", open: "8:30", close: "17:30", closed: false },
+    { day: "Thursday", open: "8:30", close: "17:30", closed: false },
+    { day: "Friday", open: "8:30", close: "17:30", closed: false },
+    { day: "Saturday", open: "9:00", close: "15:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-034",
+  slug: "royal-furniture-house",
+
+  name: "Royal Furniture House",
+  categoryId: "home-utilities",
+  description:
+    "Home and office furniture including sofas, beds, wardrobes and dining sets.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Kamiti Road",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:30", close: "18:00", closed: false },
+    { day: "Tuesday", open: "8:30", close: "18:00", closed: false },
+    { day: "Wednesday", open: "8:30", close: "18:00", closed: false },
+    { day: "Thursday", open: "8:30", close: "18:00", closed: false },
+    { day: "Friday", open: "8:30", close: "18:00", closed: false },
+    { day: "Saturday", open: "9:00", close: "17:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-035",
+  slug: "kahawa-west-auto-spares",
+
+  name: "Kahawa West Auto Spares",
+  categoryId: "automotive",
+  description:
+    "Quality spare parts and accessories for various vehicle models.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kamiti Road",
+  landmark: "Near Car Wash",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "18:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
+    { day: "Friday", open: "8:00", close: "18:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "17:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-036",
+  slug: "express-car-wash",
+
+  name: "Express Car Wash",
+  categoryId: "automotive",
+  description:
+    "Professional car wash, vacuuming, detailing and interior cleaning services.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kamiti Road",
+  landmark: "Near Auto Spares",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "7:00", close: "18:30", closed: false },
+    { day: "Tuesday", open: "7:00", close: "18:30", closed: false },
+    { day: "Wednesday", open: "7:00", close: "18:30", closed: false },
+    { day: "Thursday", open: "7:00", close: "18:30", closed: false },
+    { day: "Friday", open: "7:00", close: "18:30", closed: false },
+    { day: "Saturday", open: "7:00", close: "18:30", closed: false },
+    { day: "Sunday", open: "8:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-037",
+  slug: "peak-fitness-gym",
+
+  name: "Peak Fitness Gym",
+  categoryId: "health-wellness",
+  description:
+    "Modern gym offering fitness training, cardio equipment and personal coaching.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Shopping Centre",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "5:30", close: "21:00", closed: false },
+    { day: "Tuesday", open: "5:30", close: "21:00", closed: false },
+    { day: "Wednesday", open: "5:30", close: "21:00", closed: false },
+    { day: "Thursday", open: "5:30", close: "21:00", closed: false },
+    { day: "Friday", open: "5:30", close: "21:00", closed: false },
+    { day: "Saturday", open: "6:00", close: "19:00", closed: false },
+    { day: "Sunday", open: "7:00", close: "16:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-038",
+  slug: "happy-kids-play-centre",
+
+  name: "Happy Kids Play Centre",
+  categoryId: "education",
+  description:
+    "Indoor play area and family recreation centre for young children.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Schools",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "9:00", close: "18:00", closed: false },
+    { day: "Tuesday", open: "9:00", close: "18:00", closed: false },
+    { day: "Wednesday", open: "9:00", close: "18:00", closed: false },
+    { day: "Thursday", open: "9:00", close: "18:00", closed: false },
+    { day: "Friday", open: "9:00", close: "18:00", closed: false },
+    { day: "Saturday", open: "9:00", close: "18:00", closed: false },
+    { day: "Sunday", open: "10:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-039",
+  slug: "safari-travel-centre",
+
+  name: "Safari Travel Centre",
+  categoryId: "professional-services",
+  description:
+    "Travel bookings, holiday packages, air ticketing and tour planning.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Banks",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:30", close: "17:30", closed: false },
+    { day: "Tuesday", open: "8:30", close: "17:30", closed: false },
+    { day: "Wednesday", open: "8:30", close: "17:30", closed: false },
+    { day: "Thursday", open: "8:30", close: "17:30", closed: false },
+    { day: "Friday", open: "8:30", close: "17:30", closed: false },
+    { day: "Saturday", open: "9:00", close: "14:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-040",
+  slug: "urban-fashion-boutique",
+
+  name: "Urban Fashion Boutique",
+  categoryId: "shopping-retail",
+  description:
+    "Fashion boutique offering men's, women's and children's clothing and accessories.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near Quickmart",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:30", close: "19:00", closed: false },
+    { day: "Tuesday", open: "8:30", close: "19:00", closed: false },
+    { day: "Wednesday", open: "8:30", close: "19:00", closed: false },
+    { day: "Thursday", open: "8:30", close: "19:00", closed: false },
+    { day: "Friday", open: "8:30", close: "19:00", closed: false },
+    { day: "Saturday", open: "8:30", close: "19:00", closed: false },
+    { day: "Sunday", open: "10:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
 },];
