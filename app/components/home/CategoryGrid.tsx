@@ -1,15 +1,4 @@
-const categories = [
-  { icon: "🏠", name: "Home & Utilities" },
-  { icon: "🛠️", name: "Hardware & Construction" },
-  { icon: "🥬", name: "Food & Fresh" },
-  { icon: "🚚", name: "Errands & Deliveries" },
-  { icon: "💼", name: "Professional Services" },
-  { icon: "💇", name: "Beauty & Grooming" },
-  { icon: "🏥", name: "Health & Wellness" },
-  { icon: "🚗", name: "Transport & Auto" },
-  { icon: "🎓", name: "Education" },
-  { icon: "☕", name: "Restaurants & Cafés" },
-];
+import { categories } from "../../data/categories";
 
 export default function CategoryGrid() {
   return (
@@ -43,7 +32,7 @@ export default function CategoryGrid() {
           {categories.map((category) => (
 
             <button
-              key={category.name}
+              key={category.id}
               aria-label={category.name}
               className="
                 group

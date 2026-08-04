@@ -88,15 +88,16 @@ export default function BusinessGrid() {
 
             return (
               <BusinessCard
-                key={business.id}
-                name={business.name}
-                category={category?.name ?? "Uncategorized"}
-                landmark={business.landmark}
-                rating={business.rating}
-                verified={business.verified}
-                phone={business.phone}
-                whatsapp={business.whatsapp}
-              />
+  key={business.id}
+  name={business.name}
+  category={category?.name ?? "Uncategorized"}
+  categoryIcon={category?.icon ?? "🏪"}
+  landmark={business.landmark}
+  rating={business.rating}
+  verified={business.verified}
+  phone={business.phone}
+  whatsapp={business.whatsapp}
+/>
             );
           })}
 

@@ -45,6 +45,7 @@ export default function FeaturedBusinesses() {
                 key={business.id}
                 name={business.name}
                 category={category?.name ?? "Uncategorized"}
+                categoryIcon={category?.icon ?? "🏪"}
                 landmark={business.landmark}
                 rating={business.rating}
                 verified={business.verified}

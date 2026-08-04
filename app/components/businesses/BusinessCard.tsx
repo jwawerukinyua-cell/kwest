@@ -10,7 +10,27 @@ type BusinessCardProps = {
   phone?: string;
   whatsapp?: string;
 };
+function getCategoryIcon(category: string) {
+  const icons: Record<string, string> = {
+    "Food & Fresh": "🛒",
+    "Health & Wellness": "💊",
+    "Restaurants": "🍽️",
+    "Coffee & Cafés": "☕",
+    "Barbers & Salons": "✂️",
+    "Hardware & Construction": "🛠️",
+    "Electronics": "💻",
+    "Schools": "🎓",
+    "Churches": "⛪",
+    "Hotels & Lodges": "🏨",
+    "Fitness": "🏋️",
+    "Automotive": "🚗",
+    "Laundry": "🧺",
+    "Printing": "🖨️",
+    "Home Utilities": "🔥",
+  };
 
+  return icons[category] ?? "🏪";
+}
 export default function BusinessCard({
   name,
   category,
@@ -25,23 +45,33 @@ export default function BusinessCard({
 
       {/* Business Photo */}
 
-      <div className="relative flex h-52 items-center justify-center bg-slate-200">
+      <div className="relative flex h-52 flex-col items-center justify-center bg-gradient-to-br from-emerald-50 via-slate-50 to-emerald-100">
 
-        <span className="text-center text-sm font-medium leading-6 text-slate-500">
-          Business Photo
-          <br />
-          Coming Soon
-        </span>
+  <div className="mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-md">
+    <span className="text-3xl">
+  {getCategoryIcon(category)}
+</span>
+  </div>
 
-        <div className="absolute right-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-slate-700 shadow">
-          📷 3 Photos
-        </div>
+  <h4 className="text-base font-semibold text-slate-800">
+    Business Photos
+  </h4>
 
-      </div>
+  <p className="mt-1 text-center text-sm leading-6 text-slate-500">
+    Business owner can upload
+    <br />
+    up to 3 photos
+  </p>
+
+  <div className="absolute right-4 top-4 rounded-full bg-emerald-600 px-3 py-1 text-xs font-semibold text-white shadow">
+    📷 Coming Soon
+  </div>
+
+</div>
 
       {/* Content */}
 
-      <div className="p-6">
+      <div className="space-y-4 p-6">
 
         {/* Business Name */}
 
@@ -69,43 +99,50 @@ export default function BusinessCard({
 
         {/* Rating */}
 
-        <div className="mt-3 flex items-center gap-2">
+<div className="mt-3 flex items-center gap-2">
 
-          <span className="text-amber-500">
-            ⭐
-          </span>
+  <span className="text-amber-500">
+    ⭐
+  </span>
 
-          <span className="text-sm font-medium text-slate-700">
-            {rating} / 5.0
-          </span>
+  <span className="text-sm font-medium text-slate-700">
+    {rating > 0 ? `${rating} / 5.0` : "New Listing"}
+  </span>
 
-        </div>
+</div>
 
         {/* Actions */}
 
-        <div className="mt-8 grid grid-cols-2 gap-3">
+<div className="mt-8 grid grid-cols-2 gap-3">
 
-          <a
-            href={phone ? `tel:${phone}` : "#"}
-            aria-label={`Call ${name}`}
-          >
-            <Button variant="secondary" className="w-full">
-              📞 Call
-            </Button>
-          </a>
+  <a
+    href={phone ? `tel:${phone}` : "#"}
+    aria-label={`Call ${name}`}
+  >
+    <Button variant="secondary" className="w-full">
+      📞 Call
+    </Button>
+  </a>
 
-          <a
-            href={whatsapp ? `https://wa.me/${whatsapp}` : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`WhatsApp ${name}`}
-          >
-            <Button className="w-full">
-              💬 WhatsApp
-            </Button>
-          </a>
+  <a
+    href={whatsapp ? `https://wa.me/${whatsapp}` : "#"}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`WhatsApp ${name}`}
+  >
+    <Button className="w-full">
+      💬 WhatsApp
+    </Button>
+  </a>
 
-        </div>
+</div>
+
+<a
+  href={`/directory/${name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, "")}`}
+  className="mt-4 block text-center font-semibold text-emerald-700 transition hover:text-emerald-800"
+>
+  View Business →
+</a>
 
       </div>
 
