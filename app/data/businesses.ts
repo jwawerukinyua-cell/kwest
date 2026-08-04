@@ -619,4 +619,225 @@ updatedAt: "2026-08-03",
   createdAt: "2026-08-04",
   updatedAt: "2026-08-04",
 },
+
+{
+  id: "kwest-016",
+  slug: "kahawa-west-veterinary-pharmacy",
+
+  name: "Kahawa West Veterinary Pharmacy",
+  categoryId: "health-wellness",
+  description:
+    "Animal health products, veterinary medicines and livestock supplies.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near Shell Petrol Station",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "18:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
+    { day: "Friday", open: "8:00", close: "18:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "17:00", closed: false },
+    { day: "Sunday", open: "", close: "", closed: true },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-017",
+  slug: "royal-salon",
+
+  name: "Royal Salon",
+  categoryId: "beauty-grooming",
+  description:
+    "Hair styling, beauty treatments and grooming services for ladies.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Quickmart",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "20:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
+    { day: "Friday", open: "8:00", close: "20:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
+    { day: "Sunday", open: "9:00", close: "18:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-018",
+  slug: "executive-barbershop",
+
+  name: "Executive Barbershop",
+  categoryId: "beauty-grooming",
+  description:
+    "Modern barbershop offering quality haircuts, shaving and grooming services.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West",
+  landmark: "Near Stage",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "8:00", close: "20:00", closed: false },
+    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
+    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
+    { day: "Friday", open: "8:00", close: "20:00", closed: false },
+    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
+    { day: "Sunday", open: "9:00", close: "18:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-019",
+  slug: "kahawa-west-butchery",
+
+  name: "Kahawa West Butchery",
+  categoryId: "food-fresh",
+  description:
+    "Fresh beef, goat meat, chicken and quality meat cuts for families.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near Market",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "7:00", close: "20:00", closed: false },
+    { day: "Tuesday", open: "7:00", close: "20:00", closed: false },
+    { day: "Wednesday", open: "7:00", close: "20:00", closed: false },
+    { day: "Thursday", open: "7:00", close: "20:00", closed: false },
+    { day: "Friday", open: "7:00", close: "20:00", closed: false },
+    { day: "Saturday", open: "7:00", close: "20:00", closed: false },
+    { day: "Sunday", open: "8:00", close: "18:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
+{
+  id: "kwest-020",
+  slug: "kahawa-west-bakery",
+
+  name: "Kahawa West Bakery",
+  categoryId: "food-fresh",
+  description:
+    "Fresh bread, cakes, pastries and baked snacks served daily.",
+
+  phone: "",
+  whatsapp: "",
+  email: "",
+  website: "",
+
+  address: "Kahawa West Shopping Centre",
+  landmark: "Near Stage",
+
+  latitude: undefined,
+  longitude: undefined,
+
+  logo: "",
+  featuredImage: "/placeholders/business.jpg",
+  gallery: [],
+
+  verified: false,
+  featured: false,
+
+  openingHours: [
+    { day: "Monday", open: "6:30", close: "19:00", closed: false },
+    { day: "Tuesday", open: "6:30", close: "19:00", closed: false },
+    { day: "Wednesday", open: "6:30", close: "19:00", closed: false },
+    { day: "Thursday", open: "6:30", close: "19:00", closed: false },
+    { day: "Friday", open: "6:30", close: "19:00", closed: false },
+    { day: "Saturday", open: "6:30", close: "19:00", closed: false },
+    { day: "Sunday", open: "7:00", close: "17:00", closed: false },
+  ],
+
+  rating: 0,
+  reviewCount: 0,
+
+  createdAt: "2026-08-04",
+  updatedAt: "2026-08-04",
+},
+
 ];
