@@ -1,9 +1,12 @@
 # PRODUCT PRINCIPLES
+Where are we going?
+# Vision
 
-> This document is for the KWEST team.
+KWEST exists to become the trusted digital infrastructure for every neighbourhood in Kenya.
 
-It guides product decisions, feature prioritization and user experience.
-It is not intended for public publication.
+We begin with Kahawa West.
+
+Our mission is to organise neighbourhood knowledge, connect local opportunity, and make communities easier to discover, navigate and grow.
 
 ---
 
@@ -69,13 +72,21 @@ KWEST is where trusted information lives.
 
 Every important piece of content should have its permanent home on KWEST.
 
+Engineering Principle #12
+
+Let's add another principle to KWEST.
+
+Pages compose. Components implement.
+
 ---
 
 # Decision Filter
 
 Before approving any new feature, answer these five questions:
 
+
 - Does it help residents?
+- Why does KWEST exist?
 - Does it strengthen trust?
 - Is it simple to understand?
 - Will it still make sense in five years?

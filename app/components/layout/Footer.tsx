@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300">
@@ -9,13 +11,18 @@ export default function Footer() {
 
           <div>
 
-            <h2 className="text-2xl font-bold text-white">
-              KWEST
-            </h2>
+            <Image
+              src="/logos/kwest-logo.png"
+              alt="KWEST"
+              width={180}
+              height={50}
+              priority
+            />
 
-            <p className="mt-4 leading-7">
-              Trusted businesses, verified community updates and local stories
-              that help Kahawa West residents make better decisions every day.
+            <p className="mt-5 leading-7">
+              Trusted businesses, verified community updates and real local
+              stories that help Kahawa West residents make better decisions
+              every day.
             </p>
 
             <p className="mt-6 text-sm text-slate-400">
@@ -26,31 +33,37 @@ export default function Footer() {
 
           </div>
 
-          {/* Residents */}
+          {/* Explore */}
 
           <div>
 
             <h3 className="text-lg font-semibold text-white">
-              Residents
+              Explore
             </h3>
 
             <ul className="mt-5 space-y-3">
 
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="transition hover:text-white">
                   Browse Directory
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="transition hover:text-white">
                   Community Updates
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="transition hover:text-white">
                   Community Spotlight
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="transition hover:text-white">
+                  Categories
                 </a>
               </li>
 
@@ -69,20 +82,20 @@ export default function Footer() {
             <ul className="mt-5 space-y-3">
 
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="transition hover:text-white">
                   Join the Directory
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="transition hover:text-white">
                   Listing Guidelines
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white transition">
-                  Contact Support
+                <a href="#" className="transition hover:text-white">
+                  Help Centre
                 </a>
               </li>
 
@@ -101,24 +114,31 @@ export default function Footer() {
             <ul className="mt-5 space-y-3">
 
               <li>
-                WhatsApp
+                WhatsApp Us
               </li>
 
               <li>
-                Email
+                support@kwest.co.ke
               </li>
 
               <li>
-                Kahawa West, Nairobi
+                Kahawa West
+                <br />
+                Nairobi, Kenya
               </li>
 
             </ul>
 
-            <div className="mt-8 rounded-xl border border-emerald-500/30 bg-emerald-500/10 p-4">
+            <div className="mt-8 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-5">
 
-              <p className="text-sm text-emerald-200">
-                Community updates delivered where they matter most.
-                No unnecessary noise.
+              <p className="font-semibold text-emerald-200">
+                Less scrolling. Better decisions.
+              </p>
+
+              <p className="mt-2 text-sm leading-6 text-emerald-100">
+                KWEST helps neighbours discover trusted businesses,
+                verified updates and authentic community stories—
+                without the noise of social media.
               </p>
 
             </div>
@@ -134,16 +154,26 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-4 text-sm text-slate-400 md:flex-row">
 
             <p>
-              © 2026 KWEST. All rights reserved.
+              © 2026 KWEST.
+              <br className="md:hidden" />
+              <span className="md:ml-2">
+                Built in Kahawa West for communities everywhere.
+              </span>
             </p>
 
             <div className="flex gap-6">
 
-              <a href="#" className="hover:text-white transition">
+              <a
+                href="#"
+                className="transition hover:text-white"
+              >
                 Privacy Policy
               </a>
 
-              <a href="#" className="hover:text-white transition">
+              <a
+                href="#"
+                className="transition hover:text-white"
+              >
                 Terms of Use
               </a>
 

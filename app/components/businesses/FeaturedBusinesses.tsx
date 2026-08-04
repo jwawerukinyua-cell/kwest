@@ -1,66 +1,58 @@
 import BusinessCard from "./BusinessCard";
-
-const featuredBusinesses = [
-  {
-    name: "Kamiti Quick Gas",
-    category: "Home & Utilities",
-    landmark: "Kamiti Road",
-    rating: 4.9,
-    verified: true,
-    phone: "254722111111",
-    whatsapp: "254722111111",
-  },
-  {
-    name: "Soweto Hardware",
-    category: "Hardware & Construction",
-    landmark: "Soweto Stage",
-    rating: 4.8,
-    verified: true,
-    phone: "254733222222",
-    whatsapp: "254733222222",
-  },
-  {
-    name: "Mama Lucy Groceries",
-    category: "Food & Fresh",
-    landmark: "Near Quickmart",
-    rating: 4.7,
-    verified: false,
-    phone: "254711333333",
-    whatsapp: "254711333333",
-  },
-];
+import { businesses } from "../../data/businesses";
+import { categories } from "../../data/categories";
 
 export default function FeaturedBusinesses() {
+  const featuredBusinesses = businesses.filter(
+    (business) => business.featured
+  );
+
   return (
-    <section className="bg-slate-50 py-14">
+    <section className="bg-slate-50 py-20">
       <div className="mx-auto max-w-6xl px-5">
 
-        <div className="mb-8">
+        {/* Section Badge */}
 
-          <h2 className="text-3xl font-bold text-slate-900">
-            ⭐ Featured Businesses
-          </h2>
+        <span className="inline-flex rounded-full bg-emerald-100 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-emerald-700">
+          ⭐ Featured Businesses
+        </span>
 
-          <p className="mt-2 text-slate-600">
-            Discover trusted local businesses serving the Kahawa West community.
-          </p>
+        {/* Section Heading */}
 
-        </div>
+        <h2 className="mt-6 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          Trusted Businesses Around Kahawa West
+        </h2>
 
-        <div className="grid gap-6">
+        {/* Description */}
 
-          {featuredBusinesses.map((business) => (
-            <BusinessCard
-              key={business.name}
-              name={business.name}
-              category={business.category}
-              landmark={business.landmark}
-              rating={business.rating}
-              verified={business.verified}
-              phone={business.phone}
-              whatsapp={business.whatsapp}
-            />
-          ))}
+        <p className="mt-5 max-w-3xl text-base leading-7 text-slate-600">
+          Explore verified local businesses trusted by the community.
+          From everyday essentials to professional services, discover
+          businesses that make life in Kahawa West easier.
+        </p>
+
+        {/* Business Cards */}
+
+        <div className="mt-10 grid gap-8 lg:grid-cols-3">
+
+          {featuredBusinesses.map((business) => {
+            const category = categories.find(
+              (category) => category.id === business.categoryId
+            );
+
+            return (
+              <BusinessCard
+                key={business.id}
+                name={business.name}
+                category={category?.name ?? "Uncategorized"}
+                landmark={business.landmark}
+                rating={business.rating}
+                verified={business.verified}
+                phone={business.phone}
+                whatsapp={business.whatsapp}
+              />
+            );
+          })}
 
         </div>
 
