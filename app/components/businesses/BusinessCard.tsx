@@ -4,36 +4,18 @@ import VerifiedBadge from "../ui/VerifiedBadge";
 type BusinessCardProps = {
   name: string;
   category: string;
+  categoryIcon: string;
   landmark: string;
   rating: number;
   verified: boolean;
   phone?: string;
   whatsapp?: string;
 };
-function getCategoryIcon(category: string) {
-  const icons: Record<string, string> = {
-    "Food & Fresh": "🛒",
-    "Health & Wellness": "💊",
-    "Restaurants": "🍽️",
-    "Coffee & Cafés": "☕",
-    "Barbers & Salons": "✂️",
-    "Hardware & Construction": "🛠️",
-    "Electronics": "💻",
-    "Schools": "🎓",
-    "Churches": "⛪",
-    "Hotels & Lodges": "🏨",
-    "Fitness": "🏋️",
-    "Automotive": "🚗",
-    "Laundry": "🧺",
-    "Printing": "🖨️",
-    "Home Utilities": "🔥",
-  };
 
-  return icons[category] ?? "🏪";
-}
 export default function BusinessCard({
   name,
   category,
+  categoryIcon,
   landmark,
   rating,
   verified,
@@ -48,8 +30,8 @@ export default function BusinessCard({
       <div className="relative flex h-52 flex-col items-center justify-center bg-gradient-to-br from-emerald-50 via-slate-50 to-emerald-100">
 
   <div className="mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-md">
-    <span className="text-3xl">
-  {getCategoryIcon(category)}
+   <span className="text-3xl">
+  TEST {categoryIcon}
 </span>
   </div>
 
