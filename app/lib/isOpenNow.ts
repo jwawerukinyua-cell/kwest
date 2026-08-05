@@ -1,43 +1,52 @@
-export function isOpenNow(
-  openingHours?: {
+export function getTodaySchedule(
+  openingHours: {
     day: string;
     open: string;
     close: string;
     closed: boolean;
   }[]
 ) {
-  // No opening hours provided
-  if (!openingHours || openingHours.length === 0) {
-    return false;
-  }
-
   const now = new Date();
 
   const today = now.toLocaleDateString("en-US", {
     weekday: "long",
   });
 
-  const currentMinutes =
-    now.getHours() * 60 + now.getMinutes();
-
-  const schedule = openingHours.find(
+  return openingHours.find(
     (day) => day.day === today
   );
+}
+
+export function isOpenNow(
+  openingHours: {
+    day: string;
+    open: string;
+    close: string;
+    closed: boolean;
+  }[]
+) {
+  const schedule = getTodaySchedule(openingHours);
 
   if (!schedule || schedule.closed) {
     return false;
   }
 
-  const [openHour, openMinute] = schedule.open
-    .split(":")
-    .map(Number);
+  const now = new Date();
 
-  const [closeHour, closeMinute] = schedule.close
-    .split(":")
-    .map(Number);
+  const currentMinutes =
+    now.getHours() * 60 + now.getMinutes();
 
-  const openMinutes = openHour * 60 + openMinute;
-  const closeMinutes = closeHour * 60 + closeMinute;
+  const [openHour, openMinute] =
+    schedule.open.split(":").map(Number);
+
+  const [closeHour, closeMinute] =
+    schedule.close.split(":").map(Number);
+
+  const openMinutes =
+    openHour * 60 + openMinute;
+
+  const closeMinutes =
+    closeHour * 60 + closeMinute;
 
   return (
     currentMinutes >= openMinutes &&
