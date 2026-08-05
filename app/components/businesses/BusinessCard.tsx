@@ -1,5 +1,6 @@
 import Button from "../ui/Button";
 import VerifiedBadge from "../ui/VerifiedBadge";
+import { isOpenNow } from "../../lib/isOpenNow";
 
 type BusinessCardProps = {
   name: string;
@@ -10,6 +11,13 @@ type BusinessCardProps = {
   verified: boolean;
   phone?: string;
   whatsapp?: string;
+
+  openingHours: {
+    day: string;
+    open: string;
+    close: string;
+    closed: boolean;
+  }[];
 };
 
 export default function BusinessCard({
@@ -21,7 +29,10 @@ export default function BusinessCard({
   verified,
   phone,
   whatsapp,
+  openingHours,
 }: BusinessCardProps) {
+  const open = isOpenNow(openingHours);
+ 
   return (
     <article className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
 
@@ -30,8 +41,8 @@ export default function BusinessCard({
       <div className="relative flex h-52 flex-col items-center justify-center bg-gradient-to-br from-emerald-50 via-slate-50 to-emerald-100">
 
   <div className="mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-md">
-   <span className="text-3xl">
-  TEST {categoryIcon}
+  <span className="text-3xl">
+  
 </span>
   </div>
 
@@ -67,11 +78,23 @@ export default function BusinessCard({
 
         </div>
 
-        {/* Category */}
+        <div className="mt-4 flex flex-wrap items-center gap-2">
 
-        <span className="mt-4 inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700">
-          {category}
-        </span>
+  <span className="inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700">
+    {category}
+  </span>
+
+  <span
+    className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold ${
+      open
+        ? "bg-green-100 text-green-700"
+        : "bg-red-100 text-red-700"
+    }`}
+  >
+    {open ? "🟢 Open Now" : "🔴 Closed"}
+  </span>
+
+</div>
 
         {/* Location */}
 

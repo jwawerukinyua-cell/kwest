@@ -39,6 +39,10 @@ export default function FeaturedBusinesses() {
             const category = categories.find(
               (category) => category.id === business.categoryId
             );
+            console.log(
+  business.name,
+  business.openingHours
+);
 
             return (
               <BusinessCard
@@ -51,6 +55,7 @@ export default function FeaturedBusinesses() {
                 verified={business.verified}
                 phone={business.phone}
                 whatsapp={business.whatsapp}
+                openingHours={business.openingHours}
               />
             );
           })}
