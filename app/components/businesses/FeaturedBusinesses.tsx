@@ -51,7 +51,7 @@ export default function FeaturedBusinesses() {
                 category={category?.name ?? "Uncategorized"}
                 categoryIcon={category?.icon ?? "🏪"}
                 landmark={business.landmark}
-                rating={business.rating}
+          
                 verified={business.verified}
                 phone={business.phone}
                 whatsapp={business.whatsapp}
