@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "../ui/Button";
 
 export default function Hero() {
@@ -8,11 +9,13 @@ export default function Hero() {
 
 <div className="absolute inset-0">
 
-  <img
-    src="/images/kahawa-west/hero.jpg"
-    alt="Kahawa West Roundabout"
-    className="h-full w-full object-cover"
-  />
+  <Image
+  src="/images/kahawa-west/hero.jpg"
+  alt="Kahawa West Roundabout"
+  fill
+  priority
+  className="object-cover"
+/>
 
   <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/65 to-slate-900/30" />
 
@@ -63,9 +66,8 @@ and support businesses around you—all in one trusted place.
           </Button>
 
           <Button variant="secondary">
-            
-What's Happening Today
-          </Button>
+  What&apos;s Happening Today
+</Button>
 
         </div>
 

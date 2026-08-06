@@ -62,11 +62,7 @@ export default function CommunitySpotlight() {
             </h3>
 
             <p className="mt-6 max-w-3xl text-base leading-8 text-slate-600">
-              Whether it's a neighbourhood clean-up, a student earning
-              a scholarship, a family receiving community support, a
-              sports victory, a new business opening or an inspiring
-              resident making a difference, KWEST exists to document
-              and celebrate the moments that shape Kahawa West.
+             Every positive story deserves to be celebrated, from neighbourhood clean-ups to students earning recognition and local businesses making a difference.
             </p>
 
             {/* CTA */}

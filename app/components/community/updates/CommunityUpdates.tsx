@@ -43,7 +43,7 @@ export default function CommunityUpdates() {
           {/* Heading */}
 
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Stay Connected With What's Happening
+            Stay Connected With what&apos;s Happening
           </h2>
 
           {/* Description */}

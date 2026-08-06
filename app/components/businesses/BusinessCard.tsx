@@ -10,7 +10,6 @@ type BusinessCardProps = {
   category: string;
   categoryIcon: string;
   landmark: string;
-  rating: number;
   verified: boolean;
   phone?: string;
   whatsapp?: string;
@@ -28,7 +27,6 @@ export default function BusinessCard({
   category,
   categoryIcon,
   landmark,
-  rating,
   verified,
   phone,
   whatsapp,

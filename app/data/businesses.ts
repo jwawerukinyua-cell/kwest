@@ -1,3 +1,4 @@
+import { defaultOpeningHours } from "./defaultOpeningHours";
 import type { Business } from "../types/Business";
 
 export const businesses: Business[] = [
@@ -27,15 +28,7 @@ export const businesses: Business[] = [
     verified: true,
     featured: true,
 
-    openingHours: [
-      { day: "Monday", open: "8:00", close: "18:00", closed: false },
-      { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
-      { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
-      { day: "Thursday", open: "8:00", close: "18:00", closed: false },
-      { day: "Friday", open: "8:00", close: "18:00", closed: false },
-      { day: "Saturday", open: "8:00", close: "17:00", closed: false },
-      { day: "Sunday", open: "", close: "", closed: true },
-    ],
+    openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -65,15 +58,7 @@ export const businesses: Business[] = [
     verified: true,
     featured: true,
 
-    openingHours: [
-      { day: "Monday", open: "7:30", close: "18:00", closed: false },
-      { day: "Tuesday", open: "7:30", close: "18:00", closed: false },
-      { day: "Wednesday", open: "7:30", close: "18:00", closed: false },
-      { day: "Thursday", open: "7:30", close: "18:00", closed: false },
-      { day: "Friday", open: "7:30", close: "18:00", closed: false },
-      { day: "Saturday", open: "8:00", close: "17:00", closed: false },
-      { day: "Sunday", open: "", close: "", closed: true },
-    ],
+    openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -103,15 +88,7 @@ export const businesses: Business[] = [
     verified: false,
     featured: false,
 
-    openingHours: [
-      { day: "Monday", open: "7:00", close: "20:00", closed: false },
-      { day: "Tuesday", open: "7:00", close: "20:00", closed: false },
-      { day: "Wednesday", open: "7:00", close: "20:00", closed: false },
-      { day: "Thursday", open: "7:00", close: "20:00", closed: false },
-      { day: "Friday", open: "7:00", close: "20:00", closed: false },
-      { day: "Saturday", open: "7:00", close: "20:00", closed: false },
-      { day: "Sunday", open: "8:00", close: "18:00", closed: false },
-    ],
+    openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -143,15 +120,7 @@ updatedAt: "2026-08-03",
     verified: true,
     featured: true,
 
-    openingHours: [
-      { day: "Monday", open: "7:00", close: "22:00", closed: false },
-      { day: "Tuesday", open: "7:00", close: "22:00", closed: false },
-      { day: "Wednesday", open: "7:00", close: "22:00", closed: false },
-      { day: "Thursday", open: "7:00", close: "22:00", closed: false },
-      { day: "Friday", open: "7:00", close: "22:00", closed: false },
-      { day: "Saturday", open: "7:00", close: "22:00", closed: false },
-      { day: "Sunday", open: "8:00", close: "21:00", closed: false },
-    ],
+    openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -183,15 +152,7 @@ updatedAt: "2026-08-03",
     verified: false,
     featured: true,
 
-    openingHours: [
-      { day: "Monday", open: "7:00", close: "21:00", closed: false },
-      { day: "Tuesday", open: "7:00", close: "21:00", closed: false },
-      { day: "Wednesday", open: "7:00", close: "21:00", closed: false },
-      { day: "Thursday", open: "7:00", close: "21:00", closed: false },
-      { day: "Friday", open: "7:00", close: "21:00", closed: false },
-      { day: "Saturday", open: "7:00", close: "21:00", closed: false },
-      { day: "Sunday", open: "8:00", close: "20:00", closed: false },
-    ],
+    openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -227,15 +188,7 @@ updatedAt: "2026-08-03",
     verified: false,
     featured: false,
 
-    openingHours: [
-      { day: "Monday", open: "8:00", close: "20:00", closed: false },
-      { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
-      { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
-      { day: "Thursday", open: "8:00", close: "20:00", closed: false },
-      { day: "Friday", open: "8:00", close: "20:00", closed: false },
-      { day: "Saturday", open: "8:00", close: "19:00", closed: false },
-      { day: "Sunday", open: "9:00", close: "17:00", closed: false },
-    ],
+    openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -271,15 +224,7 @@ updatedAt: "2026-08-03",
     verified: false,
     featured: false,
 
-    openingHours: [
-      { day: "Monday", open: "8:00", close: "18:00", closed: false },
-      { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
-      { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
-      { day: "Thursday", open: "8:00", close: "18:00", closed: false },
-      { day: "Friday", open: "8:00", close: "18:00", closed: false },
-      { day: "Saturday", open: "8:00", close: "14:00", closed: false },
-      { day: "Sunday", open: "", close: "", closed: true },
-    ],
+    openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -315,15 +260,7 @@ updatedAt: "2026-08-03",
     verified: false,
     featured: true,
 
-    openingHours: [
-      { day: "Monday", open: "7:00", close: "21:00", closed: false },
-      { day: "Tuesday", open: "7:00", close: "21:00", closed: false },
-      { day: "Wednesday", open: "7:00", close: "21:00", closed: false },
-      { day: "Thursday", open: "7:00", close: "21:00", closed: false },
-      { day: "Friday", open: "7:00", close: "22:00", closed: false },
-      { day: "Saturday", open: "7:00", close: "22:00", closed: false },
-      { day: "Sunday", open: "8:00", close: "20:00", closed: false },
-    ],
+   openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -359,15 +296,7 @@ updatedAt: "2026-08-03",
     verified: false,
     featured: false,
 
-    openingHours: [
-      { day: "Monday", open: "7:30", close: "18:00", closed: false },
-      { day: "Tuesday", open: "7:30", close: "18:00", closed: false },
-      { day: "Wednesday", open: "7:30", close: "18:00", closed: false },
-      { day: "Thursday", open: "7:30", close: "18:00", closed: false },
-      { day: "Friday", open: "7:30", close: "18:00", closed: false },
-      { day: "Saturday", open: "8:00", close: "17:00", closed: false },
-      { day: "Sunday", open: "", close: "", closed: true },
-    ],
+  openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -402,16 +331,7 @@ updatedAt: "2026-08-03",
 
     verified: false,
     featured: false,
-
-    openingHours: [
-      { day: "Monday", open: "7:00", close: "19:00", closed: false },
-      { day: "Tuesday", open: "7:00", close: "19:00", closed: false },
-      { day: "Wednesday", open: "7:00", close: "19:00", closed: false },
-      { day: "Thursday", open: "7:00", close: "19:00", closed: false },
-      { day: "Friday", open: "7:00", close: "19:00", closed: false },
-      { day: "Saturday", open: "7:00", close: "19:00", closed: false },
-      { day: "Sunday", open: "8:00", close: "17:00", closed: false },
-    ],
+openingHours: defaultOpeningHours,
 
     rating: 0.0,
     reviewCount: 0,
@@ -443,15 +363,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
-    { day: "Friday", open: "8:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "18:00", closed: false },
-    { day: "Sunday", open: "9:00", close: "16:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -483,15 +395,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "21:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "21:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "21:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "21:00", closed: false },
-    { day: "Friday", open: "8:00", close: "21:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "9:00", close: "17:00", closed: false },
-  ],
+openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -523,15 +427,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "7:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "7:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "7:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "7:00", close: "20:00", closed: false },
-    { day: "Friday", open: "7:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "7:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "8:00", close: "17:00", closed: false },
-  ],
+openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -563,15 +459,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "19:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "19:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "19:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "19:00", closed: false },
-    { day: "Friday", open: "8:00", close: "19:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "19:00", closed: false },
-    { day: "Sunday", open: "9:00", close: "17:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -603,15 +491,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
-    { day: "Friday", open: "8:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "9:00", close: "18:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -646,16 +526,7 @@ updatedAt: "2026-08-03",
 
   verified: false,
   featured: false,
-
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "18:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
-    { day: "Friday", open: "8:00", close: "18:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "17:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -691,15 +562,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
-    { day: "Friday", open: "8:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "9:00", close: "18:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -735,16 +598,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
-    { day: "Friday", open: "8:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "9:00", close: "18:00", closed: false },
-  ],
-
+ openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -779,15 +633,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "7:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "7:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "7:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "7:00", close: "20:00", closed: false },
-    { day: "Friday", open: "7:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "7:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "8:00", close: "18:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -823,15 +669,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "6:30", close: "19:00", closed: false },
-    { day: "Tuesday", open: "6:30", close: "19:00", closed: false },
-    { day: "Wednesday", open: "6:30", close: "19:00", closed: false },
-    { day: "Thursday", open: "6:30", close: "19:00", closed: false },
-    { day: "Friday", open: "6:30", close: "19:00", closed: false },
-    { day: "Saturday", open: "6:30", close: "19:00", closed: false },
-    { day: "Sunday", open: "7:00", close: "17:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -869,15 +707,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "6:30", close: "21:00", closed: false },
-    { day: "Tuesday", open: "6:30", close: "21:00", closed: false },
-    { day: "Wednesday", open: "6:30", close: "21:00", closed: false },
-    { day: "Thursday", open: "6:30", close: "21:00", closed: false },
-    { day: "Friday", open: "6:30", close: "21:00", closed: false },
-    { day: "Saturday", open: "6:30", close: "21:00", closed: false },
-    { day: "Sunday", open: "7:00", close: "20:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -913,16 +743,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "7:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "7:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "7:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "7:00", close: "20:00", closed: false },
-    { day: "Friday", open: "7:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "8:00", close: "18:00", closed: false },
-  ],
-
+ openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -956,16 +777,7 @@ updatedAt: "2026-08-03",
 
   verified: false,
   featured: false,
-
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "18:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
-    { day: "Friday", open: "8:00", close: "18:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "16:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1001,16 +813,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
-    { day: "Friday", open: "8:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "18:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
-
+ openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1044,16 +847,7 @@ updatedAt: "2026-08-03",
 
   verified: false,
   featured: false,
-
-  openingHours: [
-    { day: "Monday", open: "8:30", close: "19:00", closed: false },
-    { day: "Tuesday", open: "8:30", close: "19:00", closed: false },
-    { day: "Wednesday", open: "8:30", close: "19:00", closed: false },
-    { day: "Thursday", open: "8:30", close: "19:00", closed: false },
-    { day: "Friday", open: "8:30", close: "19:00", closed: false },
-    { day: "Saturday", open: "8:30", close: "18:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1088,16 +882,7 @@ updatedAt: "2026-08-03",
 
   verified: false,
   featured: false,
-
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "18:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
-    { day: "Friday", open: "8:00", close: "18:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "17:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1133,15 +918,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "7:00", close: "19:00", closed: false },
-    { day: "Tuesday", open: "7:00", close: "19:00", closed: false },
-    { day: "Wednesday", open: "7:00", close: "19:00", closed: false },
-    { day: "Thursday", open: "7:00", close: "19:00", closed: false },
-    { day: "Friday", open: "7:00", close: "19:00", closed: false },
-    { day: "Saturday", open: "7:00", close: "19:00", closed: false },
-    { day: "Sunday", open: "8:00", close: "17:00", closed: false },
-  ],
+ openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1177,15 +954,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "19:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "19:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "19:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "19:00", closed: false },
-    { day: "Friday", open: "8:00", close: "19:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "18:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+ openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1221,16 +990,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "18:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
-    { day: "Friday", open: "8:00", close: "18:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "17:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
-
+  openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1265,16 +1025,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "7:00", close: "18:00", closed: false },
-    { day: "Tuesday", open: "7:00", close: "18:00", closed: false },
-    { day: "Wednesday", open: "7:00", close: "18:00", closed: false },
-    { day: "Thursday", open: "7:00", close: "18:00", closed: false },
-    { day: "Friday", open: "7:00", close: "18:00", closed: false },
-    { day: "Saturday", open: "7:00", close: "17:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
-
+ openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1308,16 +1059,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "10:00", close: "22:00", closed: false },
-    { day: "Tuesday", open: "10:00", close: "22:00", closed: false },
-    { day: "Wednesday", open: "10:00", close: "22:00", closed: false },
-    { day: "Thursday", open: "10:00", close: "22:00", closed: false },
-    { day: "Friday", open: "10:00", close: "23:00", closed: false },
-    { day: "Saturday", open: "10:00", close: "23:00", closed: false },
-    { day: "Sunday", open: "11:00", close: "21:00", closed: false },
-  ],
-
+ openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1352,16 +1094,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "17:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "17:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "17:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "17:00", closed: false },
-    { day: "Friday", open: "8:00", close: "17:00", closed: false },
-    { day: "Saturday", open: "9:00", close: "14:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
-
+  openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1395,16 +1128,7 @@ updatedAt: "2026-08-03",
 
   verified: false,
   featured: false,
-
-  openingHours: [
-    { day: "Monday", open: "8:30", close: "17:30", closed: false },
-    { day: "Tuesday", open: "8:30", close: "17:30", closed: false },
-    { day: "Wednesday", open: "8:30", close: "17:30", closed: false },
-    { day: "Thursday", open: "8:30", close: "17:30", closed: false },
-    { day: "Friday", open: "8:30", close: "17:30", closed: false },
-    { day: "Saturday", open: "9:00", close: "15:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1440,15 +1164,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:30", close: "18:00", closed: false },
-    { day: "Tuesday", open: "8:30", close: "18:00", closed: false },
-    { day: "Wednesday", open: "8:30", close: "18:00", closed: false },
-    { day: "Thursday", open: "8:30", close: "18:00", closed: false },
-    { day: "Friday", open: "8:30", close: "18:00", closed: false },
-    { day: "Saturday", open: "9:00", close: "17:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1484,15 +1200,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "18:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
-    { day: "Friday", open: "8:00", close: "18:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "17:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1528,16 +1236,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "7:00", close: "18:30", closed: false },
-    { day: "Tuesday", open: "7:00", close: "18:30", closed: false },
-    { day: "Wednesday", open: "7:00", close: "18:30", closed: false },
-    { day: "Thursday", open: "7:00", close: "18:30", closed: false },
-    { day: "Friday", open: "7:00", close: "18:30", closed: false },
-    { day: "Saturday", open: "7:00", close: "18:30", closed: false },
-    { day: "Sunday", open: "8:00", close: "17:00", closed: false },
-  ],
-
+ openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1572,16 +1271,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "5:30", close: "21:00", closed: false },
-    { day: "Tuesday", open: "5:30", close: "21:00", closed: false },
-    { day: "Wednesday", open: "5:30", close: "21:00", closed: false },
-    { day: "Thursday", open: "5:30", close: "21:00", closed: false },
-    { day: "Friday", open: "5:30", close: "21:00", closed: false },
-    { day: "Saturday", open: "6:00", close: "19:00", closed: false },
-    { day: "Sunday", open: "7:00", close: "16:00", closed: false },
-  ],
-
+  openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1616,15 +1306,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "9:00", close: "18:00", closed: false },
-    { day: "Tuesday", open: "9:00", close: "18:00", closed: false },
-    { day: "Wednesday", open: "9:00", close: "18:00", closed: false },
-    { day: "Thursday", open: "9:00", close: "18:00", closed: false },
-    { day: "Friday", open: "9:00", close: "18:00", closed: false },
-    { day: "Saturday", open: "9:00", close: "18:00", closed: false },
-    { day: "Sunday", open: "10:00", close: "17:00", closed: false },
-  ],
+ openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1660,16 +1342,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:30", close: "17:30", closed: false },
-    { day: "Tuesday", open: "8:30", close: "17:30", closed: false },
-    { day: "Wednesday", open: "8:30", close: "17:30", closed: false },
-    { day: "Thursday", open: "8:30", close: "17:30", closed: false },
-    { day: "Friday", open: "8:30", close: "17:30", closed: false },
-    { day: "Saturday", open: "9:00", close: "14:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
-
+  openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1704,15 +1377,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:30", close: "19:00", closed: false },
-    { day: "Tuesday", open: "8:30", close: "19:00", closed: false },
-    { day: "Wednesday", open: "8:30", close: "19:00", closed: false },
-    { day: "Thursday", open: "8:30", close: "19:00", closed: false },
-    { day: "Friday", open: "8:30", close: "19:00", closed: false },
-    { day: "Saturday", open: "8:30", close: "19:00", closed: false },
-    { day: "Sunday", open: "10:00", close: "17:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1748,16 +1413,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:30", close: "19:00", closed: false },
-    { day: "Tuesday", open: "8:30", close: "19:00", closed: false },
-    { day: "Wednesday", open: "8:30", close: "19:00", closed: false },
-    { day: "Thursday", open: "8:30", close: "19:00", closed: false },
-    { day: "Friday", open: "8:30", close: "19:00", closed: false },
-    { day: "Saturday", open: "8:30", close: "18:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
-
+openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1793,16 +1449,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "18:30", closed: false },
-    { day: "Tuesday", open: "8:00", close: "18:30", closed: false },
-    { day: "Wednesday", open: "8:00", close: "18:30", closed: false },
-    { day: "Thursday", open: "8:00", close: "18:30", closed: false },
-    { day: "Friday", open: "8:00", close: "18:30", closed: false },
-    { day: "Saturday", open: "8:00", close: "17:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
-
+ openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1837,17 +1484,7 @@ updatedAt: "2026-08-03",
 
   verified: false,
   featured: false,
-
-  openingHours: [
-    { day: "Monday", open: "6:30", close: "20:00", closed: false },
-    { day: "Tuesday", open: "6:30", close: "20:00", closed: false },
-    { day: "Wednesday", open: "6:30", close: "20:00", closed: false },
-    { day: "Thursday", open: "6:30", close: "20:00", closed: false },
-    { day: "Friday", open: "6:30", close: "20:00", closed: false },
-    { day: "Saturday", open: "6:30", close: "20:00", closed: false },
-    { day: "Sunday", open: "7:00", close: "18:00", closed: false },
-  ],
-
+openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1883,16 +1520,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "7:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "7:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "7:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "7:00", close: "20:00", closed: false },
-    { day: "Friday", open: "7:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "7:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "8:00", close: "18:00", closed: false },
-  ],
-
+  openingHours: defaultOpeningHours,
   rating: 0,
   reviewCount: 0,
 
@@ -1928,15 +1556,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "19:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "19:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "19:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "19:00", closed: false },
-    { day: "Friday", open: "8:00", close: "19:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "19:00", closed: false },
-    { day: "Sunday", open: "10:00", close: "17:00", closed: false },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -1973,15 +1593,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "20:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "20:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "20:00", closed: false },
-    { day: "Friday", open: "8:00", close: "20:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "20:00", closed: false },
-    { day: "Sunday", open: "9:00", close: "17:00", closed: false },
-  ],
+ openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -2018,15 +1630,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:30", close: "18:00", closed: false },
-    { day: "Tuesday", open: "8:30", close: "18:00", closed: false },
-    { day: "Wednesday", open: "8:30", close: "18:00", closed: false },
-    { day: "Thursday", open: "8:30", close: "18:00", closed: false },
-    { day: "Friday", open: "8:30", close: "18:00", closed: false },
-    { day: "Saturday", open: "9:00", close: "17:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -2063,15 +1667,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "18:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "18:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "18:00", closed: false },
-    { day: "Friday", open: "8:00", close: "18:00", closed: false },
-    { day: "Saturday", open: "8:00", close: "16:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -2108,15 +1704,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "7:00", close: "17:00", closed: false },
-    { day: "Tuesday", open: "7:00", close: "17:00", closed: false },
-    { day: "Wednesday", open: "7:00", close: "17:00", closed: false },
-    { day: "Thursday", open: "7:00", close: "17:00", closed: false },
-    { day: "Friday", open: "7:00", close: "17:00", closed: false },
-    { day: "Saturday", open: "", close: "", closed: true },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,
@@ -2153,15 +1741,7 @@ updatedAt: "2026-08-03",
   verified: false,
   featured: false,
 
-  openingHours: [
-    { day: "Monday", open: "8:00", close: "17:00", closed: false },
-    { day: "Tuesday", open: "8:00", close: "17:00", closed: false },
-    { day: "Wednesday", open: "8:00", close: "17:00", closed: false },
-    { day: "Thursday", open: "8:00", close: "17:00", closed: false },
-    { day: "Friday", open: "8:00", close: "17:00", closed: false },
-    { day: "Saturday", open: "9:00", close: "13:00", closed: false },
-    { day: "Sunday", open: "", close: "", closed: true },
-  ],
+  openingHours: defaultOpeningHours,
 
   rating: 0,
   reviewCount: 0,

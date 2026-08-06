@@ -1,10 +1,8 @@
 type BusinessContactProps = {
-  phone: string;
   whatsapp?: string;
 };
 
 export default function BusinessContact({
-  phone,
   whatsapp,
 }: BusinessContactProps) {
   return (
