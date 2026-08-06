@@ -127,18 +127,13 @@ export default function BusinessCard({
 
         </div>
 
-        {/* Rating */}
-        <div className="mt-3 flex items-center gap-2">
+        {/* Community Feedback */}
 
-          <span className="text-amber-500">
-            ⭐
-          </span>
+<div className="mt-4 rounded-2xl border border-slate-200 bg-slate-50 p-4">
 
-          <span className="text-sm font-medium text-slate-700">
-            {rating > 0 ? `${rating} / 5.0` : "New Listing"}
-          </span>
+  
 
-        </div>
+</div>
 
         {/* Actions */}
         <div className="mt-8 grid grid-cols-2 gap-3">
