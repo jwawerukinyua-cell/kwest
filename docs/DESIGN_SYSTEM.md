@@ -1,10 +1,16 @@
 # KWEST DESIGN SYSTEM
 
-> This document defines the visual language of KWEST.
->
-> Every interface decision should follow these standards.
-> Consistency builds trust.
+># KWEST DESIGN SYSTEM
 
+> Every neighbourhood has a story.
+>
+> KWEST exists to help residents discover, trust and support the people and businesses around them.
+>
+> This Design System protects that experience.
+>
+> It is not a collection of colours and components.
+>
+> It is a promise that every page, interaction and feature will feel familiar, trustworthy and unmistakably local.
 ---
 
 # 1. Design Philosophy
@@ -15,20 +21,30 @@ KWEST is trustworthy.
 
 KWEST is familiar.
 
-KWEST never overwhelms the user.
+KWEST feels local before it feels digital.
 
-Every screen should help residents make better decisions with less effort.
+Every interface should help residents make better decisions with less effort.
 
+Technology should disappear behind clarity.
 ---
 
 # 2. Design Principles
 
-## Community Before Commerce
+Feedback exists to help businesses improve.
 
-Businesses are important.
+Never design experiences that encourage public shaming.
 
-Residents come first.
+The goal is a stronger community, not louder criticism.
 
+Whenever possible,
+
+choose local language,
+
+local imagery,
+
+local landmarks,
+
+and authentic community context over generic alternatives.
 ---
 
 ## Trust Through Consistency
@@ -39,9 +55,11 @@ Buttons, cards, badges and typography should behave consistently across the plat
 
 ## Simplicity Wins
 
-If two solutions exist,
+Empty space is intentional.
 
-choose the simpler one.
+Do not fill every area.
+
+Good design allows the interface to breathe.
 
 ---
 
@@ -69,38 +87,49 @@ No AI-generated imagery in production whenever authentic photography is availabl
 
 # 3. Brand Colours
 
-## Primary
-
-Emerald
-
-Purpose
-
-- Primary buttons
-- Links
-- Highlights
-- Verified badge
-
-## Secondary
-
-Slate
+Primary
+Coffee Leaf Green
 
 Purpose
 
-- Body text
-- Navigation
-- Cards
+Primary buttons
+Links
+Verified
+Success
 
-## Accent
+Inspired by the coffee plantations that gave Kahawa West its name.
 
-Amber
+Secondary
+Charcoal Slate
 
 Purpose
 
-- Ratings
-- Notifications
-- Warnings requiring attention
+Typography
+Navigation
+Structure
+Accent
+Red Earth
+
+Purpose
+
+Direction
+Location
+Maps
+Subtle highlights
+
+Inspired by the rich red soil beneath Kahawa West.
+
+Support
+Morning Mist
+
+Purpose
+
+Backgrounds
+Sections
+Reading comfort
 
 ## Background
+Hero image-kawahwa_west.jpg
 
 Light Slate
 
@@ -259,13 +288,17 @@ It must never be used decoratively.
 
 # 8. Photography
 
+PPhotography should make residents recognize home.
+
 Preferred order
 
-1. Real photography
+1. Authentic local photography
 
-2. Placeholder during development
+2. Team photography
 
-Stock photography should be avoided whenever authentic local photography exists.
+3. Placeholder during development
+
+Avoid generic stock imagery whenever authentic alternatives exist.
 
 ---
 
@@ -292,6 +325,9 @@ Animations should be:
 - Purposeful
 
 Hover effects should feel natural.
+Motion should reward interaction.
+
+Never demand attention.
 
 ---
 
@@ -322,6 +358,9 @@ Accessibility is part of quality.
 ---
 
 # 13. Copywriting
+Write like a helpful neighbour.
+
+Not like a corporation.
 
 Write for residents.
 
@@ -361,6 +400,14 @@ Reusable components include:
 - Verified Badge
 - Search Bar
 
+Every new component must answer one question:
+
+Can this be reused elsewhere?
+
+If yes,
+
+make it reusable before shipping.
+
 Components should never be duplicated unnecessarily.
 
 ---
@@ -393,6 +440,14 @@ Beautiful enough to inspire.
 Simple enough to use.
 
 Trusted enough to rely on.
+Beautiful enough to inspire.
+
+Simple enough to use.
+
+Trusted enough to rely on.
+
+Built for neighbours.
+
 
 ---
 

@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+    <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/90 backdrop-blur-md transition-all duration-300">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5">
 
         {/* Logo */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center">
           <Image
             src="/logos/kwest-logo.png"
             alt="KWEST Directory"
@@ -18,7 +18,7 @@ export default function Header() {
 
         {/* Menu Button */}
         <button
-          className="rounded-lg border border-slate-300 p-2 text-slate-700 hover:bg-slate-100"
+          className="rounded-xl border border-slate-200 bg-white p-2.5 text-slate-700 transition hover:border-emerald-300 hover:bg-emerald-50"
           aria-label="Open Menu"
         >
           ☰

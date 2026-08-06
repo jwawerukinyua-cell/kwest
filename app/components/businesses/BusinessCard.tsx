@@ -49,29 +49,27 @@ export default function BusinessCard({
           </span>
         </div>
 
-        <h4 className="text-base font-semibold text-slate-800">
-          Business Photos
-        </h4>
+        <h4 className="text-lg font-semibold text-slate-800">
+  {name}
+</h4>
 
-        <p className="mt-1 text-center text-sm leading-6 text-slate-500">
-          Business owner can upload
-          <br />
-          up to 3 photos
-        </p>
+<p className="mt-2 text-center text-sm text-slate-500">
+  Photos coming soon
+</p>
 
         <div className="absolute right-4 top-4 rounded-full bg-emerald-600 px-3 py-1 text-xs font-semibold text-white shadow">
-          📷 Coming Soon
+          📷 Soon
         </div>
 
       </div>
 
       {/* Content */}
-      <div className="space-y-4 p-6">
+      <div className="space-y-5 p-6">
 
         {/* Business Name */}
         <div className="flex items-start justify-between gap-3">
 
-          <h3 className="text-xl font-semibold leading-7 text-slate-900">
+          <h3 className="text-2xl font-semibold leading-7 text-slate-900">
             {name}
           </h3>
 
@@ -82,9 +80,21 @@ export default function BusinessCard({
         {/* Category + Status */}
         <div className="mt-4 flex flex-wrap items-center gap-2">
 
-          <span className="inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700">
-            {category}
-          </span>
+          <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700">
+  <span>{categoryIcon}</span>
+  <span>{category}</span>
+</span>
+<div className="flex items-center gap-2">
+
+  <span className="text-amber-500">
+    ⭐
+  </span>
+
+  <span className="text-sm font-medium text-slate-500">
+    Be the first to rate
+  </span>
+
+</div>
 
           <span
             className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold ${
@@ -127,11 +137,21 @@ export default function BusinessCard({
 
         </div>
 
-        {/* Community Feedback */}
+       {/* Community Feedback */}
 
 <div className="mt-4 rounded-2xl border border-slate-200 bg-slate-50 p-4">
 
-  
+  <h4 className="text-sm font-semibold text-slate-900">
+    💬 Community Feedback
+  </h4>
+
+  <h4 className="text-sm font-semibold text-slate-900">
+  Community Feedback
+</h4>
+
+<p className="mt-1 text-sm text-slate-600">
+  Be the first resident to share your experience.
+</p>
 
 </div>
 
